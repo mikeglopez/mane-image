@@ -93,6 +93,7 @@
 				 background-size: 800px 500px;
 				 background-position: center bottom; 
 	}
+	.carla-lopez { display: none; }
 	#mySubmit { margin-left: auto;
 				margin-right: auto; }
 }
