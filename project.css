@@ -166,5 +166,6 @@ footer { background-color: #626B84;
 		padding-right: 15px; }
 	#mySubmit { margin-left: auto;
 				margin-right: auto; }
-	#gallery { display: none; 
+	#gallery { display: none; }
+	#map { display: none; }
 }
