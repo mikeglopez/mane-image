@@ -35,18 +35,58 @@
 	</nav>
 	
 	<main>
-	
-	  <img src="comingsoon.jpg" height="425" width="800" alt="Image coming soon" id="mainimg">
-	  <p>
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus dui dui, eget hendrerit nulla imperdiet eu. Donec eleifend urna velit, quis condimentum ante scelerisque ut. Fusce maximus porttitor justo eget cursus. Vivamus luctus condimentum felis eget vulputate. In vitae lectus non nisl condimentum malesuada eget vel ipsum. Quisque cursus scelerisque risus, et porta quam blandit tempor. Nunc et urna turpis. Fusce imperdiet, elit at auctor tempor, odio velit lobortis elit, vel venenatis nibh nunc at nisi. Cras congue tellus tincidunt nisi scelerisque, sollicitudin mollis augue posuere. Vestibulum ullamcorper id quam id consequat. Curabitur vel lacinia diam, ac accumsan felis. Etiam sagittis pretium felis.
-	  </p>
-	  <p>
-		Donec accumsan odio quis turpis efficitur semper. Mauris sollicitudin, est ut porttitor iaculis, nibh lectus placerat lectus, et laoreet nulla est ac tortor. Aliquam lacinia sem id augue elementum varius. Nam a accumsan ligula, in aliquam purus. Vestibulum mattis sem et dapibus rutrum. Donec euismod euismod mauris, ac consectetur lorem scelerisque in. Aliquam pulvinar hendrerit nisl, non dictum augue fringilla et. Phasellus et purus turpis. Sed efficitur velit massa, quis bibendum elit convallis et.
-	  </p>
-	  <p>
-		Sed vestibulum nunc lacinia nibh aliquam, sed fermentum massa facilisis. Nullam leo lorem, mollis sit amet est non, faucibus vehicula est. Proin imperdiet sollicitudin auctor. Proin porta faucibus arcu, nec convallis magna lobortis vitae. Morbi eu maximus leo. Pellentesque vestibulum vehicula mollis. Proin vitae felis ut purus volutpat ultricies aliquam sit amet nisl. Vivamus tempor quam ut enim aliquet, nec hendrerit sem hendrerit.
-	  </p>
+	  <table id="locations">
+	    <tr>
+	      <td>
+		    <dl>
+			  <dt><strong>ADDRESS:</strong></dt>
+			    <dd>
+			    1215 Houbolt Rd
+				<br>Joliet, IL
+				<br>60431
+				</dd>
+			  <dt><strong>PHONE:</strong></dt>
+			    <dd>
+			    815-729-9020
+				</dd>
+			</dl>
+		  </td>
+		  <td>
+		    <dl>
+			    <dt><strong>HOURS:</strong></dt>
+			    <dd>Monday: 9am-1pm</dd>
+				<dd>Tuesday: 9am-8pm</dd>
+			    <dd>Wednesday: 9am-5pm</dd>
+			    <dd>Thursday: 9am-8pm</dd>
+			    <dd>Friday: 9am-6pm</dd>
+			    <dd>Saturday: 9am-3pm</dd>
+			    <dd>Sunday: closed</dd>
+			</dl>
+		  </td>
+		  <td>
+	    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 41.501788, lng: -88.179522};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_GQljVW_0_OIOzHmFgcXr93A-xc4Ma0c&callback=initMap">
+    </script>
+		  </td>
+	    </tr>
+	  </table>
 	</main>
+	
+
 	
 	<br>
 	
