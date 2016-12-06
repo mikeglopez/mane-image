@@ -160,7 +160,6 @@ footer { background-color: #81bd41;
 	h1 { padding-bottom: .5em;
 	}
 	#mainimg { display: none; }
-	table img { display: none; }
 	label { float: left;
 		display: block; 
 		text-align: right; 
