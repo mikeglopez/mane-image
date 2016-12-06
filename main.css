@@ -42,6 +42,15 @@ h1 { color: #FFFFFF;
 		   max-width: 1024px; 
 }
 
+.radios { display: inline; }
+
+label { float: left; 
+		text-align: right; 
+		width: 100px; 
+		}
+		
+#sub { width: 100%; }
+
 h2 { text-align: center; }
 
 nav { text-align: center;
@@ -70,8 +79,8 @@ main { font-size: .90em;
 	   margin-top: -120px; 
 	   }
 
-#mainsub { font-size: .90em; 
-	   padding: 10px 20px 10px 20px; 
+#mainmag { font-size: .90em; 
+	   padding: 10px 20px 10px 20px;	   
 	   }	 
 
 #centeredmag { display: block; 
