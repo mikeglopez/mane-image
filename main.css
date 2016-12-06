@@ -136,6 +136,8 @@ footer { background-color: #81bd41;
   }
   footer a:hover { color: #F2F2F2; 
   }
+
+#mobile { display: none; }  
   
 @media only screen and (max-width: 1024px) { 
 	body { margin: 0; }
@@ -160,6 +162,8 @@ footer { background-color: #81bd41;
 	h1 { padding-bottom: .5em;
 	}
 	#mainimg { display: none; }
+	#desktop { display: none; }
+	#mobile { display: block; }
 	label { float: left;
 		display: block; 
 		text-align: right; 
