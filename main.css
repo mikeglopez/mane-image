@@ -189,8 +189,8 @@ footer { background-color: #81bd41;
 		   text-align: center; }
 	#mySubmit { margin-left: auto;
 				margin-right: auto; }
-				
-	#maintable { display: none; }
+	#sub { width: 89%}			
+
 	main { padding: 2em; }	
 	#jumbotron { background-image: url(bg2.jpg); 
 }
