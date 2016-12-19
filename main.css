@@ -250,6 +250,8 @@ footer { background-color: #81bd41;
 		 background-position: right; 
 		 color: #000000;  
 		 text-align: center; 
-		 padding: 10px 0; 
-}
+		 padding: 10px 0;
+	}		 
+	#sub { width: 95%}
+
 }
